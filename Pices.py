@@ -53,7 +53,7 @@ class Pice:
             else:possible_moves=list(possible_moves-set(board.white_controlled_squares))
     
         return possible_moves
-    #THEY CAN BE COMBIND DAWGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG
+
     def line_move(self,move_set_offest,board):
             possible_moves=[]
             for move in move_set_offest:
